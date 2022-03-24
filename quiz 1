@@ -1,0 +1,142 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyNSNX6LmWa5WpCjmu0T9w90",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/manaswinisunkavalli311/python_practise/blob/main/quiz%201\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XSUyoGAwhFUY",
+        "outputId": "9d34f921-c975-4b93-a0b6-bce38d7a7573"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Result = 3 2\n"
+          ]
+        }
+      ],
+      "source": [
+        "\n",
+        "a=2\n",
+        "b=3\n",
+        "c=a\n",
+        "a=b\n",
+        "b=c\n",
+        "print(\"Result =\",a,b)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=5\n",
+        "b=3\n",
+        "c=2\n",
+        "if a>b and a>c:\n",
+        "    print(\"5\")\n",
+        "elif b>c and b>a:\n",
+        "    print(\"3\")\n",
+        "else:\n",
+        "    print(\"2\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3fmU5KSLjk56",
+        "outputId": "7b6650e6-580c-4893-a8e5-1d0419cb92a3"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import math\n",
+        "a=4\n",
+        "sqrt=(4**(0.5))\n",
+        "print(sqrt)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cGWcQUTtjk-o",
+        "outputId": "7c8f19ec-f233-4cd3-8984-88d3a4fcfb85"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Rainbow=['Red','Orange','Yellow','Green']\n",
+        "Rainbow.insert(3,'Black')\n",
+        "print(Rainbow)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jqqHp4dGjybZ",
+        "outputId": "a3995233-2af4-45b1-c05b-704c0e213eb3"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['Red', 'Orange', 'Yellow', 'Black', 'Green']\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
